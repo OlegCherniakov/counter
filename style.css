@@ -1,0 +1,65 @@
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button {
+  border: none;
+}
+
+.header {
+  max-width: 468px;  
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name {
+    
+    font-size: 2em; 
+    margin: 0 auto;
+}
+
+.header__logo {
+  width: 150px;
+}
+
+.header__logo-sub {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 4em;
+}
+
+.counter {
+  max-width: 468px;
+  margin: auto;
+}
+
+.counter__text {
+  text-align: center;
+  font-size: 160px;
+}
+
+.btns {
+  max-width: 468px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btns__btn {
+  font-size: 0.8em;
+  width: 150px;
+  height: 50px;
+  background-color: #ffdb4d;
+  border-radius: 2px;
+  cursor: pointer;
+}
