@@ -1,5 +1,7 @@
+(function () {
 const increaseButton = document.querySelector(".btns__btn_increase");
 const decreaseButton = document.querySelector(".btns__btn_decrease");
+
 const resetButton = document.querySelector(".btns__btn_reset");
 
 // создаю функцию createCounter здесь
@@ -47,3 +49,4 @@ decreaseButton.addEventListener("click", function () {
 resetButton.addEventListener("click", function () {
   myCounter.resetCounter();
 });
+})();
